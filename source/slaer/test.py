@@ -1,3 +1,8 @@
 __author__ = 'slaer'
-import random
-random.choice([1, 23, 44, 100])
+c = 'spam'
+for c in 'spam':
+    print c.upper()
+    if c == 'S': print 'Sasha'
+    elif c == 'P': print 'Petya'
+    elif c == 'A': print 'Anya'
+    else : print 'Mitya'
