@@ -4,7 +4,6 @@ L = (17, 40, 65, 24, 12, 13, 42)
 #Result L1 = (0, 0, 65, 0, 12, 0, 0)#
 MM,LL = list(M),list(L)
 L1,c,k = [],L[0],0
-
 for i in MM:
     k += 1
     if k == 3:
